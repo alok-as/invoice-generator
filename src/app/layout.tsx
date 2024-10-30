@@ -17,7 +17,7 @@ const RootLayout = ({
 	<html lang="en">
 		<body className={inter.className}>
 			<header>Header</header>
-			<main className="min-h-screen">{children}</main>
+			<main className="min-h-screen p-10">{children}</main>
 			<footer>Footer</footer>
 		</body>
 	</html>
